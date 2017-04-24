@@ -28,3 +28,27 @@ print("The 'bool1' variable = " + str(bool1))
 type_bool = str(type(bool1))
 print("The 'bool1' variable is " + type_bool)
 print()
+
+#Set a list variable, print and verify type.
+list1 = ["item1","item2","item3"]
+#Convert list to string for concatenation.
+print("The 'list1' variable = " + str(list1))
+type_list = str(type(list1))
+print("The 'list1' variable is " + type_list)
+print()
+
+#Set a tuple variable, print and verify type.
+tuple1 = ("item1",12345,"item3")
+#Convert tuple to string for concatenation.
+print("The 'tuple1' variable = " + str(tuple1))
+type_tuple = str(type(tuple1))
+print("The 'tuple1' variable is " + type_tuple)
+print()
+
+#Set a dictionary variable, print and verify type.
+dict1 = {"location":"MN","status":"working","caffeine_level":"low"}
+#Convert dictionary to string for concatenation.
+print("The 'dict1' variable = " + str(dict1))
+type_dict = str(type(dict1))
+print("The 'dict1' variable is " + type_dict)
+print()
