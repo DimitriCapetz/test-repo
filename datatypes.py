@@ -52,3 +52,15 @@ print("The 'dict1' variable = " + str(dict1))
 type_dict = str(type(dict1))
 print("The 'dict1' variable is " + type_dict)
 print()
+
+#Access first item in list1
+print("The first item in 'list1' is " + list1[0])
+print()
+
+#Access third item in tuple1
+print("The first item in 'list1' is " + tuple1[2])
+print()
+
+#Access the location value in dict1
+print("The location value in 'dict1' is " + dict1["location"])
+print()
