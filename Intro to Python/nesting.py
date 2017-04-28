@@ -12,9 +12,11 @@ print()
 print("Accessing 'subsubitem2'...")
 print(inceplist[1][1][1])
 print()
-
+"""
 #Create a list of dictionairies and access fields.
-hardware=[{"switch1":"C3850","switch2":"C3650"},{"router1":"ISR4451","router2":"ISR4331"},{"firewall1":"ASA5505","firewall2":"FP4100"}]
+hardware=[{"switch1":"C3850","switch2":"C3650"},{"router1":"ISR4451","router2":"ISR4331"},{"firewall1":"ASA5505","firewall2":"FP4100"}
+print(hardware)
+print()
 print("Accessing 'switch2'...")
 print(hardware[0]["switch2"])
 print()
@@ -24,3 +26,4 @@ print()
 print("Accessing 'firewall2'...")
 print(hardware[2]["firewall2"])
 print()
+"""
