@@ -8,11 +8,12 @@ print()
 jsons = {"response":[{"key1":"value1","key2":"value2"},{"key3":"value3","key4":"value4"}]}
 print(jsons["response"][1]["key4"])
 print()
-
+"""
 #Now we can use loops to parse through large datasets.
 artists = {"music":[{"rock":{"classic":"Led Zepplin","indie":"Jimmy Eat World","metal":"Metallica"},"country":{"classic":"Hank Williams","rock":"Garth Brooks"},"pop":{"rock":"Maroon 5","R&B":"Rihanna"}}]}
 
 print(artists["music"][0]["country"]["classic"])
 print()
-for bands in artists["music"][0]["rock"]:
-    print(bands, artists["music"][0]["rock"][bands])
+for genre in artists["music"][0]["rock"]:
+    print(genre, artists["music"][0]["rock"][genre])
+"""

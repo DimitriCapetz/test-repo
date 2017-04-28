@@ -12,7 +12,7 @@ def function2(arg1,arg2):
 
 function2("heavy","metal")
 print()
-
+"""
 #Functions are great for things you do multiple times.
 print("interface Gi1/1")
 print("  switchport")
@@ -55,3 +55,4 @@ print()
 #Getting sik wit it.
 for x in range(1,10):
     portconfig(x)
+"""
