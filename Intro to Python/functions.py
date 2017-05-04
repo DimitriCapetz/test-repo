@@ -1,7 +1,6 @@
 #Basic function definition and calling it.
 def function1():
-    print("I'm 'function1'.")
-    print()
+    print("I'm 'function1'.\n")
 
 function1()
 
