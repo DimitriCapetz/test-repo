@@ -1,4 +1,4 @@
-print ("Salutations!")
+print ("Salutations!\n")
 
 # Comment Comment Comment
 
@@ -11,15 +11,15 @@ elif num ==10:
 else:
 	print ("Dang.")
 
-print("I always get printed!")
+print("I always get printed!\n")
 
 myvar=192
 
-print("the value is: ",myvar)
+print("the value of myvar is:",myvar)
 
-print("the val is " + str(myvar))
+print("the value of myvar is: " + str(myvar))
 
-new_var="the value is" + str(myvar)
+new_var="the value of myvar is:" + str(myvar)
 
 print(new_var)
 print()
