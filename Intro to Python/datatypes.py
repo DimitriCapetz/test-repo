@@ -58,7 +58,7 @@ print("The first item in 'list1' is " + list1[0])
 print()
 
 #Access third item in tuple1
-print("The first item in 'list1' is " + tuple1[2])
+print("The thrid item in 'tuple1' is " + tuple1[2])
 print()
 
 #Access the location value in dict1
