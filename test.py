@@ -1,2 +1,3 @@
 x = 10
-print x
+print(x)
+print("This is a branch script.")
