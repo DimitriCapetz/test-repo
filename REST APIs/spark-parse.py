@@ -26,14 +26,13 @@ my_header = base_headers()
 #Call show_rooms function with arg of my_header set previously.  Set as my_rooms.
 my_direct_rooms = show_direct_rooms(my_header)
 #Output the response from the GET as JSON, Pretty Print of course.
-#print(json.dumps(my_direct_rooms, indent=4, separators=(',', ': ')))
+print(json.dumps(my_direct_rooms, indent=4, separators=(',', ': ')))
 print()
 print()
 
 #Now let's parse through to see who we're talking with and the ID of each room.
 for direct in my_direct_rooms["items"]:
     print("I'm talking to " + direct["title"] + " in room ID " + direct["id"])
-
 """
 #We don't want our last demo cluttering things up, so let's delete that room.
 #Let's define a function to get the room ID of the one we want deleted, then remove it with an API call.
@@ -51,5 +50,5 @@ def delete_room(your_header,room_name):
     print(room_name + " removed.")
 
 #Now we can call the function with our args.
-remove_room = delete_room(my_header,"Test Python Room #1")
+delete_room(my_header,"Test Python Room #1")
 """
